@@ -12,7 +12,7 @@ const Animal = mongoose.model('Animal', new mongoose.Schema({
 const app = express();
 
 //Conexión a mongo
-mongoose.connect('mongodb://devf:password@monguitodos:27017/miapp?authSource=admin');
+mongoose.connect('mongodb://devf:password@monguito:27017/miapp?authSource=admin');
 
 // Mensaje de bienvenida
 app.get('/', async(req,res)=>{
